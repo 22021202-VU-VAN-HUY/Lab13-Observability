@@ -5,12 +5,9 @@
 ## 1. Team Metadata
 - [GROUP_NAME]: Solo Observability Lab
 - [REPO_URL]: https://github.com/22021202-VU-VAN-HUY/Lab13-Observability
+- [STUDENT_ID]: 2A202600750
 - [MEMBERS]:
-  - Member A: Vu Van Huy | Role: All roles (individual project)
-  - Member B: N/A | Role: Individual project
-  - Member C: N/A | Role: Individual project
-  - Member D: N/A | Role: Individual project
-  - Member E: N/A | Role: Individual project
+  - Member A: Vũ Văn Huy | Student ID: 2A202600750 | Role: All roles (individual project)
 
 ---
 
@@ -56,7 +53,8 @@
 
 ## 5. Individual Contributions & Evidence
 
-### [MEMBER_A_NAME]: Vu Van Huy
+### [MEMBER_A_NAME]: Vũ Văn Huy
+- [STUDENT_ID]: 2A202600750
 - [TASKS_COMPLETED]: Windows setup, Python 3.14 dependency compatibility, correlation middleware, structured logging, recursive PII scrubbing, Langfuse v3 tracing, RAG/LLM waterfall, metrics, six-panel dashboard, SLOs, alerts, runbooks, incident automation, audit logs, tests, evidence, and report.
 - [EVIDENCE_LINK]: [`46e1472` logging/PII](https://github.com/22021202-VU-VAN-HUY/Lab13-Observability/commit/46e1472), [`b581a04` dashboard/SLO/alerts](https://github.com/22021202-VU-VAN-HUY/Lab13-Observability/commit/b581a04), [`8cbfbe9` tracing/incidents](https://github.com/22021202-VU-VAN-HUY/Lab13-Observability/commit/8cbfbe9), and [`bd1c698` tests/automation](https://github.com/22021202-VU-VAN-HUY/Lab13-Observability/commit/bd1c698).
 
