@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-06-15T06:24:06.818363+00:00",
+  "window_minutes": 120,
+  "trace_count": 14,
+  "minimum_required": 10,
+  "passed": true,
+  "latest_trace_ids": [
+    "46f6009a787411db6b09935af78ecb65",
+    "9e42f481ef73f2c401ea6fc74362e3bb",
+    "69012205d719d816aa7693a74611972d",
+    "8a2946e81146f3223e47e0e97a47be09",
+    "6a785ee868b50620f9436e7f5fa83ac8",
+    "9800e4c71cbcaad43ba5c3682a7e9a64",
+    "2e68e1343646a6687f0dd567388287f6",
+    "e854f51ee3811ed3fa5d1305d4ee76e0",
+    "d5342525db1caf3ce772f52ed62dc9d9",
+    "200f3ab566e096a6af90501947d0ec32"
+  ],
+  "latest_trace_url": "https://cloud.langfuse.com/project/cmqet77f207afad0c0suza3by/traces/46f6009a787411db6b09935af78ecb65",
+  "latest_trace_observations": [
+    {
+      "id": "9be76a7d34356357",
+      "name": "llm_generation",
+      "type": "GENERATION",
+      "parent_observation_id": "ca0f36eb1a4a0bc7"
+    },
+    {
+      "id": "926ede43f1b914ff",
+      "name": "rag_retrieval",
+      "type": "SPAN",
+      "parent_observation_id": "ca0f36eb1a4a0bc7"
+    },
+    {
+      "id": "ca0f36eb1a4a0bc7",
+      "name": "agent_run",
+      "type": "SPAN",
+      "parent_observation_id": null
+    }
+  ]
+}

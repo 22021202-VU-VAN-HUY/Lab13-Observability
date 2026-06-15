@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Structured Log Evidence</title>
+<style>body{font:16px Segoe UI,Arial;background:#07111f;color:#edf5ff;max-width:1300px;margin:auto;padding:30px}section{background:#101e31;border:1px solid #29405d;border-radius:14px;padding:20px;margin:16px 0}pre{white-space:pre-wrap;color:#bfe0ff;background:#091523;padding:18px;border-radius:10px}h1{margin-bottom:4px}p{color:#91a4ba}</style></head><body><h1>Structured Logging Evidence</h1><p>Correlation propagation, context enrichment, and PII redaction.</p><section><h2>Pii Redaction</h2><pre>{
+  &quot;service&quot;: &quot;api&quot;,
+  &quot;payload&quot;: {
+    &quot;message_preview&quot;: &quot;What is your refund policy? My email is [REDACTED_EMAIL]&quot;
+  },
+  &quot;event&quot;: &quot;request_received&quot;,
+  &quot;model&quot;: &quot;claude-sonnet-4-5&quot;,
+  &quot;feature&quot;: &quot;qa&quot;,
+  &quot;user_id_hash&quot;: &quot;2055254ee30a&quot;,
+  &quot;env&quot;: &quot;dev&quot;,
+  &quot;session_id&quot;: &quot;s01&quot;,
+  &quot;correlation_id&quot;: &quot;req-5757c76b&quot;,
+  &quot;level&quot;: &quot;info&quot;,
+  &quot;ts&quot;: &quot;2026-06-15T06:19:18.212949Z&quot;
+}</pre></section><section><h2>Correlation And Enrichment</h2><pre>{
+  &quot;service&quot;: &quot;api&quot;,
+  &quot;latency_ms&quot;: 151,
+  &quot;tokens_in&quot;: 34,
+  &quot;tokens_out&quot;: 169,
+  &quot;cost_usd&quot;: 0.002637,
+  &quot;payload&quot;: {
+    &quot;answer_preview&quot;: &quot;Based on the retrieved context: [&#x27;No domain document matched. Use general fallba...&quot;
+  },
+  &quot;event&quot;: &quot;response_sent&quot;,
+  &quot;model&quot;: &quot;claude-sonnet-4-5&quot;,
+  &quot;feature&quot;: &quot;qa&quot;,
+  &quot;user_id_hash&quot;: &quot;64f6ec689229&quot;,
+  &quot;env&quot;: &quot;dev&quot;,
+  &quot;session_id&quot;: &quot;s05&quot;,
+  &quot;correlation_id&quot;: &quot;req-02bc9735&quot;,
+  &quot;level&quot;: &quot;info&quot;,
+  &quot;ts&quot;: &quot;2026-06-15T06:19:18.736256Z&quot;
+}</pre></section></body></html>

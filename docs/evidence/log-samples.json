@@ -1,0 +1,36 @@
+{
+  "pii_redaction": {
+    "service": "api",
+    "payload": {
+      "message_preview": "What is your refund policy? My email is [REDACTED_EMAIL]"
+    },
+    "event": "request_received",
+    "model": "claude-sonnet-4-5",
+    "feature": "qa",
+    "user_id_hash": "2055254ee30a",
+    "env": "dev",
+    "session_id": "s01",
+    "correlation_id": "req-5757c76b",
+    "level": "info",
+    "ts": "2026-06-15T06:19:18.212949Z"
+  },
+  "correlation_and_enrichment": {
+    "service": "api",
+    "latency_ms": 151,
+    "tokens_in": 34,
+    "tokens_out": 169,
+    "cost_usd": 0.002637,
+    "payload": {
+      "answer_preview": "Based on the retrieved context: ['No domain document matched. Use general fallba..."
+    },
+    "event": "response_sent",
+    "model": "claude-sonnet-4-5",
+    "feature": "qa",
+    "user_id_hash": "64f6ec689229",
+    "env": "dev",
+    "session_id": "s05",
+    "correlation_id": "req-02bc9735",
+    "level": "info",
+    "ts": "2026-06-15T06:19:18.736256Z"
+  }
+}
