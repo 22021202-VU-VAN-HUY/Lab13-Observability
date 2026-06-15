@@ -1,5 +1,8 @@
 # Day 13 Observability Lab Template
 
+<strong>Học viên:</strong> Vũ Văn Huy<br>
+<strong>Mã học viên:</strong> 2A202600750
+
 Template repo for a 4-hour hands-on lab on Monitoring, Logging, and Observability.
 
 ## What students will build
